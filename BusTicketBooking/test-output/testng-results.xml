@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-18T19:31:56 PDT" name="Suite" finished-at="2020-06-18T19:33:25 PDT" duration-ms="88856">
+    <groups>
+    </groups>
+    <test started-at="2020-06-18T19:31:56 PDT" name="ChromeTests1" finished-at="2020-06-18T19:33:07 PDT" duration-ms="71322">
+      <class name="com.project.testcases.BusTicketBookingTestCaseGrid_1">
+        <test-method is-config="true" signature="Launch(java.lang.String)[pri:0, instance:com.project.testcases.BusTicketBookingTestCaseGrid_1@222114ba]" started-at="2020-06-18T19:31:56 PDT" name="Launch" finished-at="2020-06-18T19:32:01 PDT" duration-ms="5017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="RedBus()[pri:0, instance:com.project.testcases.BusTicketBookingTestCaseGrid_1@222114ba]" started-at="2020-06-18T19:32:01 PDT" name="RedBus" finished-at="2020-06-18T19:32:09 PDT" duration-ms="8548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RedBus -->
+        <test-method signature="SearchBus(java.util.Hashtable)[pri:0, instance:com.project.testcases.BusTicketBookingTestCaseGrid_1@222114ba]" started-at="2020-06-18T19:32:10 PDT" name="SearchBus" data-provider="getBusData" finished-at="2020-06-18T19:32:35 PDT" depends-on-methods="com.project.testcases.BusTicketBookingTestCaseGrid_1.RedBus" duration-ms="24230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{date=25, to=Sion, Mumbai, from=Andheri East, Mumbai}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBus -->
+        <test-method signature="SearchBus(java.util.Hashtable)[pri:0, instance:com.project.testcases.BusTicketBookingTestCaseGrid_1@222114ba]" started-at="2020-06-18T19:32:35 PDT" name="SearchBus" data-provider="getBusData" finished-at="2020-06-18T19:33:03 PDT" depends-on-methods="com.project.testcases.BusTicketBookingTestCaseGrid_1.RedBus" duration-ms="27812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{date=26, to=Thane West, Mumbai, from=Borivali East, Mumbai}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBus -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.project.testcases.BusTicketBookingTestCaseGrid_1@222114ba]" started-at="2020-06-18T19:33:03 PDT" name="CloseBrowser" finished-at="2020-06-18T19:33:07 PDT" duration-ms="4641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.project.testcases.BusTicketBookingTestCaseGrid_1 -->
+    </test> <!-- ChromeTests1 -->
+    <test started-at="2020-06-18T19:31:56 PDT" name="FirefoxTests1" finished-at="2020-06-18T19:33:25 PDT" duration-ms="88856">
+      <class name="com.project.testcases.BusTicketBookingTestCaseGrid_2">
+        <test-method is-config="true" signature="Launch(java.lang.String)[pri:0, instance:com.project.testcases.BusTicketBookingTestCaseGrid_2@769e7ee8]" started-at="2020-06-18T19:31:56 PDT" name="Launch" finished-at="2020-06-18T19:32:10 PDT" duration-ms="13727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="RedBus()[pri:0, instance:com.project.testcases.BusTicketBookingTestCaseGrid_2@769e7ee8]" started-at="2020-06-18T19:32:10 PDT" name="RedBus" finished-at="2020-06-18T19:32:23 PDT" duration-ms="13054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RedBus -->
+        <test-method signature="SearchBus(java.util.Hashtable)[pri:0, instance:com.project.testcases.BusTicketBookingTestCaseGrid_2@769e7ee8]" started-at="2020-06-18T19:32:23 PDT" name="SearchBus" data-provider="getBusData" finished-at="2020-06-18T19:32:47 PDT" depends-on-methods="com.project.testcases.BusTicketBookingTestCaseGrid_2.RedBus" duration-ms="24691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{date=25, to=Sion, Mumbai, from=Andheri East, Mumbai}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBus -->
+        <test-method signature="SearchBus(java.util.Hashtable)[pri:0, instance:com.project.testcases.BusTicketBookingTestCaseGrid_2@769e7ee8]" started-at="2020-06-18T19:32:47 PDT" name="SearchBus" data-provider="getBusData" finished-at="2020-06-18T19:33:16 PDT" depends-on-methods="com.project.testcases.BusTicketBookingTestCaseGrid_2.RedBus" duration-ms="28127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{date=26, to=Thane West, Mumbai, from=Borivali East, Mumbai}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBus -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.project.testcases.BusTicketBookingTestCaseGrid_2@769e7ee8]" started-at="2020-06-18T19:33:16 PDT" name="CloseBrowser" finished-at="2020-06-18T19:33:25 PDT" duration-ms="9122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.project.testcases.BusTicketBookingTestCaseGrid_2 -->
+    </test> <!-- FirefoxTests1 -->
+  </suite> <!-- Suite -->
+</testng-results>
